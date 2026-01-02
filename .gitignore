@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+web/node_modules/
+mobile/node_modules/
+
+# builds
+dist/
+web/dist/
+mobile/.expo/
+mobile/.expo-shared/
+mobile/android/
+mobile/ios/
+mobile/web-build/
+
+# env / local
+.env
+web/.env
+*.log
+.DS_Store
+
+# caches
+.cache/
