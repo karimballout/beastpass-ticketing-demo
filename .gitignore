@@ -20,3 +20,9 @@ web/.env
 
 # caches
 .cache/
+
+# replit
+.replit
+
+# local patch scripts
+web/patch-*.cjs
