@@ -1,5 +1,14 @@
 # BEASTPass (MDLBEAST Ticketing Demo)
 
+## Live links
+- **GitHub (source):** https://github.com/karimballout/beastpass-ticketing-demo
+- **Web demo (React):** https://2e943849-f0f7-4a3d-8b79-bc3d9b8caa3d-00-26hp68dcdm788.sisko.replit.dev:5173
+- **Storybook (UI components):** https://2e943849-f0f7-4a3d-8b79-bc3d9b8caa3d-00-26hp68dcdm788.sisko.replit.dev:6007
+
+> Note: Replit demo links may sleep when inactive — I can wake them up quickly or screen-share.
+
+
+
 Mini full-stack ticketing demo built to showcase:
 - Node.js backend (Fastify, TypeScript)
 - React web (Vite + TS)
