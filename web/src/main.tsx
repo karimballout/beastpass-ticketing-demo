@@ -8,12 +8,21 @@ import "./index.css";
 function Layout() {
   return (
     <div>
-      <nav style={{ padding: 12, borderBottom: "1px solid #e5e5e5", fontFamily: "system-ui" }}>
-        <div style={{ maxWidth: 980, margin: "0 auto", display: "flex", gap: 14 }}>
-          <Link to="/" style={{ textDecoration: "none" }}>Events</Link>
-          <Link to="/tickets" style={{ textDecoration: "none" }}>My Tickets</Link>
+      <header style={{ padding: 12, borderBottom: "1px solid #e5e5e5", fontFamily: "system-ui" }}>
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
+            <Link to="/" style={{ display: "inline-flex", alignItems: "center" }}>
+              <img src="https://i.imgur.com/pVpGvx9.png" alt="BEASTPass" style={{ height: 128, width: "auto" }} />
+            </Link>
+
+            <nav style={{ display: "flex", gap: 14 }}>
+              <Link to="/" style={{ textDecoration: "none" }}>Events</Link>
+              <Link to="/tickets" style={{ textDecoration: "none" }}>My Tickets</Link>
+            </nav>
+          </div>
         </div>
-      </nav>
+      </header>
+
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/tickets" element={<TicketsPage />} />

@@ -46,11 +46,6 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 980, margin: "0 auto", padding: 24, fontFamily: "system-ui" }}>
-      <h1 style={{ marginBottom: 8 }}>BEASTPass</h1>
-      <p style={{ marginTop: 0, opacity: 0.8 }}>
-        Mini festival ticketing demo — Web buys, API issues tickets
-      </p>
-
       {error && (
         <div style={{ padding: 12, border: "1px solid #f99", borderRadius: 8, marginBottom: 16 }}>
           <strong>API error:</strong> {error}

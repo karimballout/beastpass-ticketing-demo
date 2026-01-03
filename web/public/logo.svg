@@ -1,0 +1,11 @@
+<svg width="420" height="120" viewBox="0 0 420 120" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="420" height="120" rx="18" fill="#0B0B0B"/>
+  <circle cx="64" cy="60" r="28" fill="#ffffff"/>
+  <path d="M56 60c10-10 18-10 28 0c-10 10-18 10-28 0z" fill="#0B0B0B"/>
+  <text x="120" y="52" fill="#ffffff" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="22" font-weight="700">
+    BEASTPass
+  </text>
+  <text x="120" y="78" fill="#bdbdbd" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14">
+    MDLBEAST Ticketing Demo
+  </text>
+</svg>
